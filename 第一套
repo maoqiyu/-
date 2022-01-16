@@ -1,0 +1,12 @@
+1/16/2022
+main//主函数
+#define//宏定义，解决了一次性替换所有相关数据的问题。
+#include//预处理指令，编译前替换所有内容
+using
+std::
+1.using namespace std;
+2.using std::cout;
+3.std::cout;//使用名字空间
+#include <iostream>//标准输入输出流
+cout//输出
+endl//换行
