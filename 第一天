@@ -11,3 +11,17 @@ std::
 #include <iostream>//标准输入输出流
 cout//输出
 endl//换行
+
+练习的程序：
+#include <iostream>
+using namespace std;
+int main()//输入两个整数，计算两者的和、差、积、商和余数
+{
+    int a, b;
+    cin >> a >> b;
+    cout << a + b << '\n'
+         << a - b << '\n'
+         << a * b << '\n'
+         << a / b << '\n'
+         << a % b << '\n';
+}
